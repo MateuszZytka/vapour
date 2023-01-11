@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/vapour',
+    process.env.MONGODB_URI || 'mongodb+srv://vapour:vapour123@cluster0.k7nw0g1.mongodb.net/vapour',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
